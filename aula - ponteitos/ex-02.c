@@ -7,5 +7,4 @@ void main(){
 
     printf("%p\n", p);  // mostra o endereço de memoria
     printf("%f\n", *p);  // mostra o valor que esta no endereço
-
 }
