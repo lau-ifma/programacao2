@@ -9,8 +9,19 @@ void main(){
     printf("%p", p);  // mostra o endereço de memoria
     printf("%d", *p);  // mostra o valor que esta no endereço
 
+    quadrado(p);
+
 }
 
-void quadrado(int x){
-    x = x * x;
+void quadrado(int *y){
+    *y = 20;
 }
+
+
+
+/*
+    estudar
+    - alocacao dinamica
+    - lista encadeada
+    - ponteiros
+*/
